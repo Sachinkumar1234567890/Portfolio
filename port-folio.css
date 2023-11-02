@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Gabarito&family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+html{
+scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+}
+.title{
+    height: 40px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    right: 0;
+    position: fixed;
+    /* background-color: rgb(174, 163, 163); */
+    border-radius: 10px;
+    opacity: 0.6;
+    top:5px;
+    z-index: 1;
+    margin-right: 10px;
+}
+.title a:not(:last-child){
+    text-decoration: none;
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+    color: #d4fa00;
+    cursor: grab;
+}
+.title a:hover:not(:last-child){
+    color: #cd5302f3;
+}
+.title a:last-child{
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+    height: 30px;
+    width: 100px;
+    background-color: #7B68EE;
+    border-radius: 10px;
+    padding: 7px 5px 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.home{
+    height: 100vh;
+    width:100%;
+background-image: linear-gradient(rgba(242, 215, 242, 0.55),#ffffff);    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg1.gif);
+    background-attachment: fill;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.home-container{
+    height: 450px;
+    width:800px;
+    /* border: greenyellow solid; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #fcf4dc8a;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px inset rgb(92, 85, 80);
+    color: white;
+}
+
+.round2{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(240, 153, 91);
+    border-radius: 50px;
+    top: -125px;
+    left: 250px;
+    border: 0px;
+    box-shadow: -620px 400px 0px 25px rgb(240, 153, 91),-460px -15px 0px rgb(240, 153, 91);
+}
+.box1{
+
+    height: 300px;
+    width: 200px;
+    background-color:rgb(240, 153, 91);
+    position: relative;
+    left:300px;
+    rotate:130deg;
+    top: 160px;
+    color: white;
+}
+.home h1{
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+    
+}
+.home-container h1 span{
+    font-size: 50px;
+    letter-spacing: 5px;
+    background-image: linear-gradient( rgba(241, 95, 42, 0.932), rgb(251, 244, 47)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position-y:10px;
+    background-size: cover;
+    font-size: 80px;
+}
+.home-container h3{
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+}
+.about{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(#C9D6FF,#E2E2E2);   
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-image: url(bg2.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fill;
+    background-size: cover;
+    opacity: 0.85;
+ 
+}
+.box-1 h1 pre{
+    padding: 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    background-image: linear-gradient( rgba(255, 214, 214, 0.849),rgba(100, 77, 34, 0.817));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover; 
+    font-family: 'Nosifer', sans-serif;
+}
+.boxab{
+    padding: 20px;
+    position: relative;
+    top:30px;
+    height: 400px;
+    width:1000px;
+    box-shadow: 0px 0px 20px 5px  rgba(102, 102, 227, 0.877) inset;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    height: 300px;
+    width: 440px;
+    /* border:yellow solid ; */
+    position: relative;
+    text-shadow: 2px  5px inset;
+}
+.box-2{
+    height: 300px;
+    width: 550px;
+    /* border:yellow solid ; */
+    position: relative; 
+    
+}
+.box-2 h3{
+    font-size: 20px;
+    font-family: 'Changa', sans-serif;
+    color: white;
+    align-content: justify;
+
+}
+.skill{
+    height: 100vh;
+    width:100%;
+   background-image: linear-gradient(#FFAFBD,#ffc3a0);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fill;
+    background-size: cover;
+}
+.skill h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(#4ade48, #f9bff7eb,#b3b858e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover; 
+    font-family: creepster;
+    margin-top: 20px;
+}
+li{
+    font-family: 'Volkhov', serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.loader1{
+    width: 80%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: load1 4s ease-in;
+    background-color: rgb(91, 70, 54);
+    opacity: 0.8;
+
+}
+/* .skill:click{
+    target="";
+} */
+
+@keyframes load1{
+    from{
+        width:0%;
+        background-color: rgb(154, 89, 43);
+        opacity: 0.2;
+    }
+    to{
+        width:80%;
+        background-color:rgb(94, 92, 90); 
+        opacity: 0.2;
+        
+    }
+    
+} 
+.loader2{
+    width: 90%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: load2 4s ease-in;
+    background-color: rgb(91, 70, 54);
+    opacity: 0.8;
+
+}
+
+@keyframes load2{
+    from{
+        width:0%;
+        background-color: rgb(154, 89, 43);
+        opacity: 0.2;
+    }
+    to{
+        width:90%;
+        background-color:rgb(94, 92, 90); 
+        opacity: 0.2;
+        
+    }
+    
+} 
+.loader3{
+    width: 70%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: load3 4s ease-in;
+    background-color: rgb(91, 70, 54);
+    opacity: 0.8;
+}
+
+@keyframes load3{
+    from{
+        width:0%;
+        background-color: rgb(154, 89, 43);
+        opacity: 0.2;
+    }
+    to{
+        width:70%;
+        background-color:rgb(94, 92, 90); 
+        opacity: 0.2;
+        
+    }
+    
+} 
+.loader4{
+    width: 95%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: load4 4s ease-in;
+    background-color: rgb(91, 70, 54);
+    opacity: 0.8;
+
+}
+
+@keyframes load4{
+    from{
+        width:0%;
+        background-color: rgb(154, 89, 43);
+        opacity: 0.2;
+    }
+    to{
+        width:95%;
+        background-color:rgb(94, 92, 90); 
+        opacity: 0.2;
+        
+    }
+    
+} 
+.loader5{
+    width: 90%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: load5 4s ease-in;
+    background-color: rgb(91, 70, 54);
+    opacity: 0.8;
+
+}
+
+@keyframes load5{
+    from{
+        width:0%;
+        background-color: rgb(154, 89, 43);
+        opacity: 0.2;
+    }
+    to{
+        width:90%;
+        background-color:rgb(94, 92, 90); 
+        opacity: 0.2;
+        
+    }
+    
+} 
+.loader6{
+    width: 50%;
+    height: 100%;
+    background: white;
+    position: relative;
+    animation: load6 4s ease-in;
+    background-color: rgb(91, 70, 54);
+    opacity: 0.8;
+
+}
+
+@keyframes load6{
+    from{
+        width:0%;
+        background-color: rgb(154, 89, 43);
+        opacity: 0.2;
+    }
+    to{
+        width:50%;
+        background-color:rgb(94, 92, 90); 
+        opacity: 0.2;
+        
+    }
+    
+} 
+.insloader{
+    height: 30px;
+    width: 400px;
+    background-color: white;
+}
+
+.skill ul li{
+    display: flex;
+    padding: 15px;
+    color:rgb(33, 19, 46);
+    font-size: 30px;
+}
+.project{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(#678671ee
+    ,#d0ca9be5);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(bg4.gif) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fill;
+    background-size: cover; 
+    opacity: 0.8;
+
+}
+.p1 h1{
+    padding: 10px;
+    font-family: 'Cabin Sketch', sans-serif;}
+.p1{
+    width:1000px;
+    height: 480px;
+    box-shadow: 5px 5px 20px inset black ;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    color: azure;
+    background-color: blue;
+    opacity: 0.6;
+}
+.project1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.project h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(
+        #a77241,#845189,#14ddec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover; 
+}
+.project-title{
+    color: #3A1C71;
+    font-family: 'Rye', serif;
+}
+.contact{
+    height: 100vh;
+    width:100%;
+background-image: linear-gradient(#c9c3bd,#586d7e);    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background-image: url(bg5.webp) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fill;
+    background-size: cover;
+    opacity: 0.85;
+}
+.contact h1{
+    padding: 10px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(#dcd7d7,#b5fbe3c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover; 
+}
+.det{
+    padding: 10px;
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 5px 20px inset black;
+    background-color: #845189 ;
+    position: relative;
+    left: -80px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    border-radius: 20px;
+    opacity:0.6;
+}
+.box{
+    padding: 5px;
+    height: 80px;
+    /* border: greenyellow solid; */
+    font-size: 30px;
+}
+.svg{
+    font-size: 50px;
+}
